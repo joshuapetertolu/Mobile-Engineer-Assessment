@@ -1,15 +1,6 @@
 # Design Documentation
 
-## Table of Contents
-
-1. [Clean Architecture Separation](#1-clean-architecture-separation)
-2. [Token Lifecycle & Race Conditions](#2-token-lifecycle--race-conditions)
-3. [Real-Time Data Integrity](#3-real-time-data-integrity)
-4. [SSL Pinning conceptual explanation](#4-ssl-pinning)
-
----
-
-## 1. Clean Architecture Separation (Section 6.1)
+## 1. Clean Architecture Separation
 
 I have organized the project into **distinct layers** to ensure that business logic, data, and UI never get stucked. Here's what each directory does:
 
