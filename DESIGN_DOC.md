@@ -11,7 +11,7 @@
 
 ## 1. Clean Architecture Separation (Section 6.1)
 
-I have organized the project into **distinct layers** to ensure that business logic, data, and UI never get tangled up. Here's what each directory does:
+I have organized the project into **distinct layers** to ensure that business logic, data, and UI never get stucked. Here's what each directory does:
 
 ### **src/api/** (The API Layer)
 
