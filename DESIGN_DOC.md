@@ -128,7 +128,7 @@ I would always include a **"Backup Pin"** from a different Certificate Authority
 
 ---
 
-### 📝 A Note for the Reviewers
+### 📝 A Note
 
 **SSL Pinning is documented here conceptually.** In this submission, it is **not active** in the code to allow you to use tools like **Charles Proxy** or **Flipper** to inspect the network traffic during your review.
 
