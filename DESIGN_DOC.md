@@ -90,15 +90,15 @@ SSL Pinning prevents this by **hardcoding a specific server's "fingerprint"** (i
 
 #### **1. Identity Storage**
 
-We take a **"hash"** (a unique digital fingerprint) of our server's public key and save it inside the app.
+I took a **"hash"** (a unique digital fingerprint) of the server's public key and save it inside the app.
 
-#### **2. The Handshake**
+#### **2. The Connection**
 
 When the app talks to the server, the server shows its ID.
 
 #### **3. Verification**
 
-The app compares the server's ID to the fingerprint we saved.
+The app compares the server's ID to the fingerprint I saved.
 
 #### **4. Enforcement**
 
@@ -124,7 +124,7 @@ This ensures the check happens at the **lowest possible level** before any data 
 
 #### **Backup Pins**
 
-I would always include a **"Backup Pin"** from a different Certificate Authority. This way, if our primary server has a major issue, we can switch to the backup without forcing all our users to download an app update just to log in.
+I would always include a **"Backup Pin"** from a different Certificate Authority. This way, if our primary server has a major issue, I can switch to the backup without forcing all our users to download an app update just to log in.
 
 ---
 
